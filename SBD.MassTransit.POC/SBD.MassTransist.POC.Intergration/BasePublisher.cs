@@ -1,12 +1,12 @@
 ﻿using MassTransit;
 using MassTransit.EntityFrameworkIntegration.Audit;
 using RabbitMQ.Client;
-using SBD.MassTransist.POC.Intergration.Configuration;
+using SBD.MassTransist.POC.Integration.Configuration;
 using System;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SBD.MassTransist.POC.Intergration
+namespace SBD.MassTransist.POC.Integration
 {
     /// <summary>
     /// BasePublisher sends a message to specified queue via MassTransit.

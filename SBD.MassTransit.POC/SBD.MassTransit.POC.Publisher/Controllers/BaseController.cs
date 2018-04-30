@@ -1,4 +1,4 @@
-﻿using SBD.MassTransist.POC.Intergration;
+﻿using SBD.MassTransist.POC.Integration;
 using SBD.MassTransit.POC.Publisher.Configuration;
 using System;
 using System.Threading.Tasks;

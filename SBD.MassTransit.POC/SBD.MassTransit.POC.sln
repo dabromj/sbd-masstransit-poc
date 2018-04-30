@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.MassTransit.POC.Publish
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.MassTransit.POC.Messages", "SBD.MassTransit.POC.Messages\SBD.MassTransit.POC.Messages.csproj", "{6C51CDA4-BBAC-4808-91E4-6CDF5012FAAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.MassTransist.POC.Intergration", "SBD.MassTransist.POC.Intergration\SBD.MassTransist.POC.Intergration.csproj", "{A8282289-0F90-449A-995C-CDBAF8E704D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.MassTransist.POC.Integration", "SBD.MassTransist.POC.Intergration\SBD.MassTransist.POC.Integration.csproj", "{A8282289-0F90-449A-995C-CDBAF8E704D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

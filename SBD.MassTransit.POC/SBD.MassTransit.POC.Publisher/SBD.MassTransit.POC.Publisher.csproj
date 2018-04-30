@@ -121,9 +121,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SBD.MassTransist.POC.Intergration\SBD.MassTransist.POC.Intergration.csproj">
+    <ProjectReference Include="..\SBD.MassTransist.POC.Intergration\SBD.MassTransist.POC.Integration.csproj">
       <Project>{a8282289-0f90-449a-995c-cdbaf8e704d3}</Project>
-      <Name>SBD.MassTransist.POC.Intergration</Name>
+      <Name>SBD.MassTransist.POC.Integration</Name>
     </ProjectReference>
     <ProjectReference Include="..\SBD.MassTransit.POC.Messages\SBD.MassTransit.POC.Messages.csproj">
       <Project>{6c51cda4-bbac-4808-91e4-6cdf5012faaa}</Project>

@@ -1,4 +1,4 @@
-﻿namespace SBD.MassTransist.POC.Intergration.Configuration
+﻿namespace SBD.MassTransist.POC.Integration.Configuration
 {
     /// <summary>
     /// Interface to ensure that connected components provide all the information required by the base class components.

@@ -1,13 +1,13 @@
 ﻿using MassTransit;
 using MassTransit.RabbitMqTransport;
-using SBD.MassTransist.POC.Intergration.Configuration;
+using SBD.MassTransist.POC.Integration.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SBD.MassTransist.POC.Intergration
+namespace SBD.MassTransist.POC.Integration
 {
     /// <summary>
     /// BusConfigurator handles MassTransit bus configuration for RabbitMQ.
