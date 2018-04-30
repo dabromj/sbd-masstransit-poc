@@ -1,0 +1,20 @@
+﻿{
+  "MessageType": "SaveAgency",
+  "DestinationId": "local",
+  "Body": {
+    "ExternalSystemKey": "MAS",
+    "ExternalSystemId": "001",
+    "LastModifiedOn": "2018-03-25T05:00:00.000Z",
+    "IsRemoved": "false",
+    "AddressLine1": "8450 Sunlight Dr.",
+    "AddressLine2": null,
+    "City": "Fishers",
+    "State": "IN",
+    "Zip": "46037",
+    "Phone1": "3175555555",
+    "Phone2": null,
+    "SecondarySourceKey": "002",
+    "AgencyType": "SOC",
+    "AgencyName": "Fisher's SOC"
+  }
+}

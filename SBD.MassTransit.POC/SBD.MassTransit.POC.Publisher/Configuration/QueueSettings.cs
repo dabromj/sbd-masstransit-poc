@@ -1,4 +1,4 @@
-﻿using SBD.MassTransist.POC.Integration.Configuration;
+﻿using SBD.MassTransit.POC.Integration.Configuration;
 using System.Configuration;
 
 namespace SBD.MassTransit.POC.Publisher.Configuration

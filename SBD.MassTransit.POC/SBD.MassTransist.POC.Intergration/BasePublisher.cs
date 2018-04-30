@@ -1,12 +1,12 @@
 ﻿using MassTransit;
 using MassTransit.EntityFrameworkIntegration.Audit;
 using RabbitMQ.Client;
-using SBD.MassTransist.POC.Integration.Configuration;
+using SBD.MassTransit.POC.Integration.Configuration;
 using System;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SBD.MassTransist.POC.Integration
+namespace SBD.MassTransit.POC.Integration
 {
     /// <summary>
     /// BasePublisher sends a message to specified queue via MassTransit.
@@ -50,7 +50,7 @@ namespace SBD.MassTransist.POC.Integration
                     //Start the bus
                     await bus.StartAsync();
 
-                    // If a scheduled time is provided, MassTransist provides a ScheduleSend message to use, otherwise simply use Send
+                    // If a scheduled time is provided, MassTransit provides a ScheduleSend message to use, otherwise simply use Send
                     if (scheduledTime.HasValue)
                         await endPoint.ScheduleSend(new Uri(sendToUri + queueSettings.QueueName), scheduledTime.Value, message);
                     else

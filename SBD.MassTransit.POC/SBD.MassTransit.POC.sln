@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.MassTransit.POC.Publish
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.MassTransit.POC.Messages", "SBD.MassTransit.POC.Messages\SBD.MassTransit.POC.Messages.csproj", "{6C51CDA4-BBAC-4808-91E4-6CDF5012FAAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.MassTransist.POC.Integration", "SBD.MassTransist.POC.Intergration\SBD.MassTransist.POC.Integration.csproj", "{A8282289-0F90-449A-995C-CDBAF8E704D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.MassTransit.POC.Integration", "SBD.MassTransist.POC.Intergration\SBD.MassTransit.POC.Integration.csproj", "{A8282289-0F90-449A-995C-CDBAF8E704D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.MassTransit.POC.Publisher.Tests", "SBD.MassTransit.POC.Publisher.Tests\SBD.MassTransit.POC.Publisher.Tests.csproj", "{A8F7C77A-6B53-4B17-B8BB-338A50F88630}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A8282289-0F90-449A-995C-CDBAF8E704D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8282289-0F90-449A-995C-CDBAF8E704D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8282289-0F90-449A-995C-CDBAF8E704D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F7C77A-6B53-4B17-B8BB-338A50F88630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F7C77A-6B53-4B17-B8BB-338A50F88630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F7C77A-6B53-4B17-B8BB-338A50F88630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F7C77A-6B53-4B17-B8BB-338A50F88630}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
